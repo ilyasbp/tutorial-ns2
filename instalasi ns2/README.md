@@ -4,12 +4,14 @@ Download file ns2 di [sini](http://sourceforge.net/projects/nsnam/files/latest/d
 ## 2. Ekstrak arsip ns2
 1. file bisa diekstrak di folder sembarang. tetapi di sini agar rapi buat folder `Program` dulu di direktori `Home`:
 	
-	`cd ~
-	mkdir Program`
+	`cd ~`
+
+	`mkdir Program`
 2. Ekstrak filenya
 	
-	`cd ~/Program
-	tar -xvzf ns-allinone-2.35.tar.gz`
+	`cd ~/Program`
+	
+	`tar -xvzf ns-allinone-2.35.tar.gz`
 1. Install dependencies:
 	sudo apt-get install build-essential autoconf automake libxmu-dev
 1. Install GCC:
