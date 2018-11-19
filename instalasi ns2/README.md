@@ -6,11 +6,10 @@ File bisa diekstrak di folder sembarang. tetapi di sini agar rapi buat folder `P
 	
 	cd ~
 	mkdir Program
-2. Ekstrak filenya
+Ekstrak filenya
 	
-	`cd ~/Program`
-
-	`tar -xvzf ns-allinone-2.35.tar.gz`
+	cd ~/Program
+	tar -xvzf ns-allinone-2.35.tar.gz
 
 ## 3. Install dependencies & GCC
 Install dependencies:
@@ -18,21 +17,28 @@ Install dependencies:
 	sudo apt-get install build-essential autoconf automake libxmu-dev
 Install GCC:
 	
-	`sudo apt-get install GCC`
+	sudo apt-get install GCC
 
 ## 4. Ubah sesuatu di dalam folder ns
-Ketik perintah berikut ini
+buka file ls.h di dalam folder ns tepatnya di linkstate
 
-	`gedit ~/Program/ns-allinone-2.35/ns-2.35/linkstate`
-
+	`gedit ~/Program/ns-allinone-2.35/ns-2.35/linkstate/ls.h`
+pada baris ke 137, ubah `error` menjadi `this->error`
 
 ## 5. Mulai instalasi
+Pindah ke folder ns
+
 	cd ~/Downloads/ns-allinone-2.35/
+lalu install
+
 	sudo ./install
-1. Setting environment
-	masukkan perintah:
+
+## 6. Setting environment
+masukkan perintah:
+
 		sudo gedit ~/.bashrc
-	lalu masukkan baris berikut ini (rekomendasi: di paling bawah):
+lalu masukkan baris berikut ini (rekomendasi: di akhir baris):
+
 		# LD_LIBRARY_PATH
 		OTCL_LIB=/home/akshay/ns-allinone-2.35/otcl-1.14
 		NS2_LIB=/home/akshay/ns-allinone-2.35/lib
@@ -49,6 +55,9 @@ Ketik perintah berikut ini
 		NS=/home/akshay/ns-allinone-2.35/ns-2.35/ 
 		NAM=/home/akshay/ns-allinone-2.35/nam-1.15/ 
 		PATH=$PATH:$XGRAPH:$NS:$NAM
-1. Restart linux
-1. Coba masukkan perintah ns di terminal
-1. Selesai :)
+
+Restart linux
+
+Lalu coba masukkan perintah ns di terminal
+
+Selesai :)
