@@ -78,7 +78,7 @@ cara cepatnya:
 	3. replace with: bejo
 	4. replace all
 
-## Tes apakah ns2 sudah terinstall dengan benar
+## 7. Tes apakah ns2 sudah terinstall dengan benar
 
 **Restart linux dulu**
 
