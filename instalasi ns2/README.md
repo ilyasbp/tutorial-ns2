@@ -2,11 +2,10 @@
 ## 1. Download file arsip Installer NS2
 Download file ns2 di [sini](http://sourceforge.net/projects/nsnam/files/latest/download)
 ## 2. Ekstrak arsip ns2
-1. file bisa diekstrak di folder sembarang. tetapi di sini agar rapi buat folder `Program` dulu di direktori `Home`:
+File bisa diekstrak di folder sembarang. tetapi di sini agar rapi buat folder `Program` dulu di direktori `Home`:
 	
-	`cd ~`
-
-	`mkdir Program`
+	cd ~
+	mkdir Program
 2. Ekstrak filenya
 	
 	`cd ~/Program`
