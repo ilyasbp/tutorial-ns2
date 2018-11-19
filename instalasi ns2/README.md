@@ -1,4 +1,4 @@
-# Instalasi NS2
+# Instalasi NS2 di Linux Mint / Ubuntu
 ## 1. Download file arsip Installer NS2
 Download file ns2 di [sini](http://sourceforge.net/projects/nsnam/files/latest/download)
 ## 2. Ekstrak arsip ns2
@@ -11,13 +11,18 @@ Ekstrak filenya
 	cd ~/Program
 	tar -xvzf ns-allinone-2.35.tar.gz
 
-## 3. Install dependencies & GCC
+## 3. Install dependencies, gcc, dan software pendukung
 Install dependencies:
 	
 	sudo apt-get install build-essential autoconf automake libxmu-dev
 Install GCC:
 	
 	sudo apt-get install GCC
+
+Install gedit:
+
+	sudo apt-get install gedit
+
 
 ## 4. Ubah sesuatu di dalam folder ns
 buka file ls.h di dalam folder ns tepatnya di linkstate
@@ -63,6 +68,13 @@ contoh, misal nama usermu `bejo`
 ubah `OTCL_LIB=/home/rusaku/ns-allinone-2.35/otcl-1.14` menjadi `OTCL_LIB=/home/bejo/ns-allinone-2.35/otcl-1.14`
 
 dan seterusnya
+
+cara cepatnya:
+
+	1. ctrl + H
+	2. find: rusaku
+	3. replace with: bejo
+	4. replace all
 
 Restart linux
 
