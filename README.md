@@ -1,2 +1,7 @@
-# tutorial-ns2
-Repositori ini berisi tentang tutorial ns2 dan MANET/VANET
+# Tutorial NS2 dan VANET
+Main tutorial:
+1. Instalasi NS2 kekinian
+1. AODV
+1. Membuat skenario VANET
+1. Running skenario VANET
+1. Analisis hasil
