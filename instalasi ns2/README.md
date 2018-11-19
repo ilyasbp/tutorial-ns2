@@ -80,10 +80,12 @@ cara cepatnya:
 
 ## Tes apakah ns2 sudah terinstall dengan benar
 
-Restart linux
+**Restart linux dulu**
 
 Lalu coba masukkan perintah ns di terminal.
 
 Pastikan muncul seperti pada gambar
+
+![](img/ns-test.png)
 
 Selesai :)
