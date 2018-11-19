@@ -1,8 +1,8 @@
 # Instalasi NS2 di Linux Mint / Ubuntu
-## 1. Download file arsip Installer NS2
+## 1. Download dan Ekstrakfile arsip Installer NS2
 Download file ns2 di [sini](http://sourceforge.net/projects/nsnam/files/latest/download)
-## 2. Ekstrak arsip ns2
-File bisa diekstrak di folder sembarang. tetapi di sini agar rapi buat folder `Program` dulu di direktori `Home`:
+
+File bisa diekstrak di folder sembarang. Tetapi di sini agar rapi buat folder `Program` dulu di direktori `Home`:
 	
 	cd ~
 	mkdir Program
@@ -63,9 +63,7 @@ lalu masukkan baris berikut ini (rekomendasi: di akhir baris):
 	NAM=/home/Program/rusaku/ns-allinone-2.35/nam-1.15/ 
 	PATH=$PATH:$XGRAPH:$NS:$NAM
 
-lalu ganti nama user `rusaku` menjadi nama usermu
-
-contoh, misal nama usermu `bejo`
+lalu ganti nama user `rusaku` menjadi nama usermu. Contoh, misal nama usermu `bejo`.
 
 ubah `OTCL_LIB=/home/Program/rusaku/ns-allinone-2.35/otcl-1.14` menjadi `OTCL_LIB=/home/Program/bejo/ns-allinone-2.35/otcl-1.14`
 
