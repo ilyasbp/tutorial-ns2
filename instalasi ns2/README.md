@@ -58,7 +58,12 @@ lalu masukkan baris berikut ini (rekomendasi: di akhir baris):
 
 lalu ganti nama user `rusaku` menjadi nama usermu
 
-contoh: `OTCL_LIB=/home/**rusaku**/ns-allinone-2.35/otcl-1.14` menjadi `OTCL_LIB=/home/**bejo**/ns-allinone-2.35/otcl-1.14`
+contoh, misal nama usermu `bejo`
+
+ubah `OTCL_LIB=/home/rusaku/ns-allinone-2.35/otcl-1.14` menjadi `OTCL_LIB=/home/bejo/ns-allinone-2.35/otcl-1.14`
+
+dan seterusnya
+
 Restart linux
 
 Lalu coba masukkan perintah ns di terminal
