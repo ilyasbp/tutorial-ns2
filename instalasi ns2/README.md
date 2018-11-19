@@ -14,13 +14,20 @@ Download file ns2 di [sini](http://sourceforge.net/projects/nsnam/files/latest/d
 	`tar -xvzf ns-allinone-2.35.tar.gz`
 
 ## 3. Install dependencies & GCC
-1. Install dependencies:
-		`sudo apt-get install build-essential autoconf automake libxmu-dev`
-1. Install GCC:
-		`sudo apt-get install GCC`
-1. Ubah sesuatu di dalam folder ns
-	gedit ~/Downloads/ns-allinone-2.35/ns-2.35/linkstate
-1. Mulai instalasi
+Install dependencies:
+	
+	sudo apt-get install build-essential autoconf automake libxmu-dev
+Install GCC:
+	
+	`sudo apt-get install GCC`
+
+## 4. Ubah sesuatu di dalam folder ns
+Ketik perintah berikut ini
+
+	`gedit ~/Program/ns-allinone-2.35/ns-2.35/linkstate`
+
+
+## 5. Mulai instalasi
 	cd ~/Downloads/ns-allinone-2.35/
 	sudo ./install
 1. Setting environment
