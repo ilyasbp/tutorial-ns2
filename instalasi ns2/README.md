@@ -35,7 +35,7 @@ lalu pada baris ke 137, ubah `erase` menjadi `this->erase` seperti pada gambar
 ## 4. Mulai instalasi
 Pindah ke folder ns
 
-	cd ~/Downloads/ns-allinone-2.35/
+	cd ~/Program/ns-allinone-2.35/
 lalu install
 
 	sudo ./install
