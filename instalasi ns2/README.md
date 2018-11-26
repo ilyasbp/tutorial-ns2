@@ -47,8 +47,6 @@ masukkan perintah:
 	sudo gedit ~/.bashrc
 lalu masukkan baris berikut ini (rekomendasi: di akhir baris seperti pada gambar):
 
-![](img/bashrc.png)
-
 	# LD_LIBRARY_PATH
 	OTCL_LIB=/home/rusaku/Program/ns-allinone-2.35/otcl-1.14
 	NS2_LIB=/home/rusaku/Program/ns-allinone-2.35/lib
@@ -65,6 +63,8 @@ lalu masukkan baris berikut ini (rekomendasi: di akhir baris seperti pada gambar
 	NS=/home/rusaku/Program/ns-allinone-2.35/ns-2.35/ 
 	NAM=/home/rusaku/Program/ns-allinone-2.35/nam-1.15/ 
 	PATH=$PATH:$XGRAPH:$NS:$NAM
+
+![](img/bashrc.png)
 
 lalu ganti nama user `rusaku` menjadi nama usermu. Contoh, misal nama usermu `bejo`.
 
@@ -93,4 +93,5 @@ Selesai :)
 
 ## Sumber
 https://www.howtoforge.com/tutorial/ns2-network-simulator-on-ubuntu-14.04/
+
 https://www.youtube.com/watch?v=FXm8i1K-6jI
