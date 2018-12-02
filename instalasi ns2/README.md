@@ -28,7 +28,7 @@ lalu pada baris ke 137, ubah `erase` menjadi `this->erase` seperti pada gambar
 buka file `Makefile.in` di dalam folder `ns-2.35`
 
 	gedit ~/Program/ns-allinone-2.35/ns-2.35/Makefile.in
-lalu ubah `@CC@` dan `@CXX@` menjadi `gcc-4.8` seperti pada gambar
+lalu ubah `@CC@` dan `@CXX@` menjadi `gcc-4.8` dan `g++-4.8` seperti pada gambar
 
 ![](img/Makefile.in.png)
 
